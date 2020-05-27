@@ -112,7 +112,7 @@ cor(df$idade[df$sexo=="F"], df$altura[df$sexo=="F"], method = "pearson")
 cor(df$idade[df$sexo=="M"], df$altura[df$sexo=="M"], method = "pearson")
 ```
 O coeficiente de correlação para crianças do sexo feminino vale aproximadamente 0.96.
-E o coeficiente de correlação para crianças do sexo feminino vale aproximadamente 0.97.
+E o coeficiente de correlação para crianças do sexo masculino vale aproximadamente 0.97.
 Isso indica uma forte correlação positiva entre idade e altura.
 
 
