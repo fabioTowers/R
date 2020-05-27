@@ -147,7 +147,7 @@ Utilizando a função `summary()` obtemos algumas informações importantes sobr
 
 * A coluna _t value_ é a medida de quantos desvios padrão a estimativa de coefeciente está longe de zero, esse dado pode ser usado para calcular o _p-valor_;
 
-* A coluna _Pr(>|t|)_ nos diz a probabilidade de encontrar qualquer valor maior que o módulo de _t_. Observa-se que o a indicação de três asteriscos para os dois coeficientes representam um _p-valor_ altamente significativo, o que reforça a hipótese de que há uma correlação entre as variáveis;
+* A coluna _Pr(>|t|)_ nos diz a probabilidade de encontrar qualquer valor maior que o módulo de _t_. Observa-se que a indicação de três asteriscos para os dois coeficientes representam um _p-valor_ altamente significativo, o que reforça a hipótese de que há uma correlação entre as variáveis;
 
 * O desvio padrão residual é de 3.175 para 23 graus de liberdade (n-2 sendo nosso n = 25, por que estamos considerando apenas as crianças do sexo feminino);
 
