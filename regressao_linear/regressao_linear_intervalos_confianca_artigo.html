@@ -721,7 +721,7 @@ ggplot(data = df, aes(x = idade, y = altura, colour = as.factor(sexo))) +
 <pre><code>## [1] 0.9642975</code></pre>
 <pre class="r"><code>cor(df$idade[df$sexo==&quot;M&quot;], df$altura[df$sexo==&quot;M&quot;], method = &quot;pearson&quot;)</code></pre>
 <pre><code>## [1] 0.9749748</code></pre>
-<p>O coeficiente de correlação para crianças do sexo feminino vale aproximadamente 0.96. E o coeficiente de correlação para crianças do sexo feminino vale aproximadamente 0.97. Isso indica uma forte correlação positiva entre idade e altura.</p>
+<p>O coeficiente de correlação para crianças do sexo feminino vale aproximadamente 0.96. E o coeficiente de correlação para crianças do sexo masculino vale aproximadamente 0.97. Isso indica uma forte correlação positiva entre idade e altura.</p>
 <p>Agora que já sabemos o comportamento das duas variáveis faz sentido ajustar um modelo de regressão linear aos dados, ou seja, procurar a equação da reta que melhor se ajusta aos pontos no gráfico. A função <code>lm()</code> nos permite criar um modelo de regressão linear e armazená-lo, a partir do modelo obtemos diversas informações, entre elas, os coeficientes da equação da reta, os principais argumentos da função são:</p>
 <p><code>lm(variavel_dependente ~ variavel_independente)</code></p>
 <p>Para saber mais sobre a função e seus demais argumentos, você pode digitar <code>?lm()</code> na janela console do <strong>RStudio</strong>.</p>
